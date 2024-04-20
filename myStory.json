@@ -1,0 +1,249 @@
+{
+    "Title": "Inhabitant Wicked",
+    "Credits": "Created by Nikolas Otsuki (notsuki@ucsc.edu).",
+    "InitialLocation": "Front Entrance",
+    "Locations": {
+        "Front Entrance": {
+            "Body": "You open the creaky front door of the manor to reaveal a dimly lit grande entrance hall. The black and white tiled flooring shines under the enormous chandelier and the still air makes the building feel dead.",
+            "Choices": [
+                {
+                    "Text": "West",
+                    "Target": "West Wing"
+                },
+                {
+                    "Text": "East",
+                    "Target": "East Wing"
+                },
+                {
+                    "Text": "Cellar",
+                    "Target": "Cellar"
+                }
+            ]
+        },
+        "West Wing": {
+            "Body": "You enter the west wing and into a room with a large wooden table in the middle, a fireplace in the back, and statues of armor on the side. Bookshelves line the wall opposite to the statues while windows in between them give a glimpse of the dark forest outside.",
+            "Choices": [
+                {
+                    "Text": "Front Entrance",
+                    "Target": "Front Entrance"
+                },
+                {
+                    "Text": "Small Corridor",
+                    "Target": "Small Corridor"
+                },
+                {
+                    "Text": "Statue of armor",
+                    "Target": "Armor"
+                }
+            ]
+        },
+        "Armor": {
+            "Body": "You take a closer look at one of the statues of armor and notice something shining in its left hand. You open its hand to find a small blue gem and take it.",
+            "Choices": [
+                {
+                    "Text": "Back",
+                    "Target": "West Wing"
+                }
+            ]
+        },
+        "Small Corridor": {
+            "Body": "A narrow corridor with single lamp near the staircase at the end. The walls are covered in mold and other dark substances. The floor creaks loudly and you feel as though every step you take alerts the whole manor of your presence.",
+            "Choices": [
+                {
+                    "Text": "Staircase",
+                    "Target": "Staircase"
+                },
+                {
+                    "Text": "West Wing",
+                    "Target": "West Wing"
+                },
+                {
+                    "Text": "Closet",
+                    "Target": "Closet"
+
+                }
+            ]
+        },
+        "Staircase": {
+            "Body": "You stand at the foot of a small staircase that connects the first and second floor of the manor. Despite its small height, The small light at the bottom does not reach the second floor at all.",
+            "Choices": [
+                {
+                    "Text": "Up Stairs",
+                    "Target": "Hallway"
+                },
+                {
+                    "Text": "Small Corridor",
+                    "Target": "Small Corridor"
+                }
+            ]
+        },
+        "Hallway": {
+            "Body": "You arrive at a pitch black hallway. Creepy portaits line the right wall while two doors sit on the left. The floor is covered in red carpet and a foul odor surrounds you.",
+            "Choices": [
+                {
+                    "Text": "The Study",
+                    "Target": "Study"
+                },
+                {
+                    "Text": "The Lab",
+                    "Target": "Lab"
+                },
+                {
+                    "Text": "Dining Room",
+                    "Target": "Dining Room"
+                },
+                {
+                    "Text": "Down Stairs",
+                    "Target": "Staircase"
+                }
+            ]
+        },
+        "Study": {
+            "Body": "You enter the first door on the left and find yourself in a sort of office room. Books, papers, and other various objects cover the ground, making it look like a storm passed through. On the desk in the back lies a record with all sorts of scientific equipment and dates written down. Of the names of the equipment, a few stand out to you: 'Incubator', 'Preserve jars', '[REDACTED] serums'.",
+            "Choices": [
+                {
+                    "Text": "Exit",
+                    "Target": "Hallway"
+                }
+            ]
+        },
+        "Lab": {
+            "Body": "You push open the second door on the right and are immediately overwhelmed by a putrid odor. The walls of the room are made of steel and random equipment is layed out on the ground. In the back and a few tables with large glass jars and cages resting on them. On one table lies the preserved body of an enormous lizard-like creature. On the other lies a broken glass vase with what seems to be an egg it in.",
+            "Choices": [
+                {
+                    "Text": "Exit",
+                    "Target": "Hallway"
+                },
+                {
+                    "Text": "Lizard carcass",
+                    "Target": "Lizard"
+                }
+            ]
+        },
+        "Lizard": {
+            "Body": "You exmine the preserved lizard carcass and discover a small red gem resting in its eye. You take it.",
+            "Choices": [
+                {
+                    "Text": "Back",
+                    "Target": "Lab"
+                }
+            ]
+        },
+        "Dining Room": {
+            "Body": "You enter a large royal dining room with shiny silverware lined up on large tables. There are no lights in the room but you can still see due to the moonlight reflected on all the silverware. On one of the walls in the room is a large painting of what seems to be a knight holding an hourglass in one hand, and a scale in the other.",
+            "Choices": [
+                {
+                    "Text": "Hallway",
+                    "Target": "Hallway"
+                },
+                {
+                    "Text": "Balcony",
+                    "Target": "Balcony"
+                },
+                {
+                    "Text": "Long Corridor",
+                    "Target": "Long Corridor"
+                }
+            ]
+        },
+        "Balcony": {
+            "Body": "You briefly exit the manor to find yourself on a balcony overseeing an eery forest. The wind blows cold and hard yet you cannot make out any noise coming from the forest. Near the edge of the balcony lie several flower pots which presumably held plants in them before whatever destroyed them came along.",
+            "Choices": [
+                {
+                    "Text": "Dining Room",
+                    "Target": "Dining Room"
+                },
+                {
+                    "Text": "Long Corridor",
+                    "Target": "Long Corridor"
+                }
+            ]
+        },
+        "Long Corridor": {
+            "Body": "A long corridor lined with windows. There are many cupboards lined up on the left but no doors. Several of the windows have seemingly been broken and the door at the end has a large scratch on it.",
+            "Choices": [
+                {
+                    "Text": "Balcony",
+                    "Target": "Balcony"
+                },
+                {
+                    "Text": "Dining Room",
+                    "Target": "Dining Room"
+                },
+                {
+                    "Text": "East Wing",
+                    "Target": "East Wing"
+                }
+            ]
+        },
+        "East Wing": {
+            "Body": "A small room with a grandfather clock, the head of an elk and a small table.",
+            "Choices": [
+                {
+                    "Text": "Front Entrance",
+                    "Target": "Front Entrance"
+                },
+                {
+                    "Text": "Long Corridor",
+                    "Target": "Long Corridor"
+                },
+                {
+                    "Text": "Grandfather Clock",
+                    "Target": "Clock"
+                }                
+            ]
+        },
+        "Cellar": {
+            "Body": "The cellar is locked but there seems to be an elegant keyhole on the door handle. After a moment, you hear a startling noise coming from within the cellar. The clicking of something sharp on the ground, a strange squisky sound, and a faint, low growl-like sound.",
+            "Choices": [
+                {
+                    "Text": "Back",
+                    "Target": "Front Entrance"
+                }    
+            ]
+        },
+        "Closet": {
+            "Body": "A small storage closet filled with random suppplies. A dusty safe lies in the corner of the room.",
+            "Choices": [
+                {
+                    "Text": "Exit",
+                    "Target": "Small Corridor"
+                },
+                {
+                    "Text": "Dusty Safe",
+                    "Target": "Safe"
+                }
+            ]
+        },
+        "Clock": {
+            "Body": "You examine the grandfather clock and notice a small green gem sitting in between the hands. You pick up the gem and take it with you.",
+            "Choices": [
+                {
+                    "Text": "Back",
+                    "Target": "East Wing"
+                }    
+            ]
+        },
+        "Safe": {
+            "Body": "You kneel down to get a closer look at the safe and notice three small indentations on the top of the safe where it looks like something would go. The safe is locked.",
+            "Choices": [
+                {
+                    "Text": "Back",
+                    "Target": "Closet"
+                }   
+            ]
+        },
+        "Unlocked": {
+            "Body": "With the three gems in hand, you place them into the respective slots in the safe and watch the door open. Sitting on the floor of the safe is a skeleton key with a purple gem at the top.",
+            "Choices": [ 
+                {   
+                    "Text": "Back",
+                    "Target": "Closet"
+                }
+            ]
+        },
+        "End": {
+            "Body": "You enter the skeleton key into the cellar keyhole and push the wooden doors open. What lies ahead of you is a stone staircase leading down into the darkness...<br><br>You begin heading down...<br><br>You feel your breath perforate the still air and realize you can no longer see your feet...<br><br>Before long, the cold air numbs your senses and you start to wonder if you're even still alive...<br><br>You go down...<br><br>And down<br><br>Suddenly you feel something warm surround your face...<br><br>You try to back away but it's too late, the beast has you...<br><br>Your head sits gently between its teeth as it backs away, leaving a headless body to roam the catacombs forever."
+        }
+    }
+}
